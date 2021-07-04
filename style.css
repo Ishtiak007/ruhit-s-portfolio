@@ -10,6 +10,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 .half-width {
   width: 50%;
@@ -32,4 +33,29 @@ section {
 .top-banner {
   background-image: url(developer-portfolio-master/developer-portfolio-master/images/top-banner.png);
   background-repeat: no-repeat;
+}
+.second {
+  padding-top: 100px;
+  padding-right: 100px;
+}
+h2 {
+  font-size: 40px;
+}
+.hire-two {
+  text-decoration: none;
+  background-image: linear-gradient(orangered, rgb(250, 143, 124));
+  padding: 10px 40px;
+  color: rgb(21, 23, 24);
+  font-weight: bold;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.dream-big {
+  background-image: url(developer-portfolio-master/developer-portfolio-master/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.secondimg{
+  padding-top: 100px;
+  
 }
