@@ -1,0 +1,35 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+.holud-garo {
+  color: orange;
+}
+h1 {
+  font-size: 50px;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+.half-width img {
+  width: 70%;
+  padding-left: 15%;
+  padding-top: 3%;
+}
+.hire-button {
+  text-decoration: none;
+  background-image: linear-gradient(orangered, rgb(250, 143, 124));
+  padding: 10px 40px;
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.top-banner {
+  background-image: url(developer-portfolio-master/developer-portfolio-master/images/top-banner.png);
+  background-repeat: no-repeat;
+}
