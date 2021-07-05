@@ -8,7 +8,7 @@ body {
 h1 {
   font-size: 50px;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -55,7 +55,33 @@ h2 {
   background-repeat: no-repeat;
   background-position: right;
 }
-.secondimg{
+.secondimg {
   padding-top: 100px;
-  
+}
+.experience-area {
+  background-image: url(developer-portfolio-master/developer-portfolio-master/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.box-shadow {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+}
+#border-left {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: ;
+}
+#border-left1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(219, 10, 10), rgb(243, 228, 13));
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
 }
